@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400;600&display=swap");
+
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    background: #000;
+    color: white;
+}
+
+/* HEADER */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.avatar {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #8a2be2;
+}
+
+.name {
+    font-family: "Anton", sans-serif;
+    font-size: 56px;
+    margin: 15px 0 5px 0;
+    letter-spacing: 4px;
+}
+
+.role {
+    color: #aaa;
+    font-size: 18px;
+}
+
+/* SECTIONS */
+section {
+    max-width: 760px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+h2 {
+    font-family: "Anton", sans-serif;
+    font-size: 36px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+p, li {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #ddd;
+}
+
+ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+/* ICONS */
+.links .icons {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.icon img {
+    width: 70px;
+    transition: 0.2s;
+}
+
+.icon img:hover {
+    transform: scale(1.1);
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #666;
+    border-top: 1px solid #222;
+}
