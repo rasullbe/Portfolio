@@ -33,7 +33,6 @@ body {
     font-size: 18px;
 }
 
-/* SECTIONS */
 section {
     max-width: 760px;
     margin: 40px auto;
@@ -74,7 +73,6 @@ ul {
     transform: scale(1.1);
 }
 
-/* FOOTER */
 footer {
     text-align: center;
     padding: 30px;
