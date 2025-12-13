@@ -1,10 +1,14 @@
-
+<!-- index.html -->
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Rasullbe – Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -14,41 +18,39 @@
         <p class="role">Programmer • Beginner Developer</p>
     </header>
 
-    <section class="about">
-        <h2>About Me</h2>
-        <p>
-           I’m a developer who values clarity, discipline, and real growth. I enjoy building things that make sense, work smoothly, and actually solve problems. I’m focused on improving my skills every day, learning new concepts, and shaping a mindset that helps me think independently.
-          <br>
-            Philosophy inspires me as much as technology. Thinkers like Dostoevsky and Nietzsche push me to look deeper, question ideas, and stay ambitious about the future. I aim to become a developer who writes clean code, understands the bigger picture, and never stops evolving.
-        </p>
-    </section>
+    <main>
+        <section class="about | section">
+            <h2>About Me</h2>
+            <p>
+                I’m a developer who values clarity, discipline, and real growth. I enjoy building things that make sense, work smoothly, and actually solve problems. I’m focused on improving my skills every day, learning new concepts, and shaping a mindset that helps me think independently.
+                <br><br>
+                Philosophy inspires me as much as technology. Thinkers like Dostoevsky and Nietzsche push me to look deeper, question ideas, and stay ambitious about the future. I aim to become a developer who writes clean code, understands the bigger picture, and never stops evolving.
+            </p>
+        </section>
 
-    <section class="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>C# • .NET Basics</li>
-            <li>HTML • CSS</li>
-            <li>GitHub • Git</li>
-            <li>TypeScript • GoLang Basics</li>
-        </ul>
-    </section>
+        <section class="skills | section">
+            <h2>Skills</h2>
+            <ul class="skill-list">
+                <li>C# • .NET</li>
+                <li>HTML • CSS</li>
+                <li>GitHub • Git</li>
+                <li>TypeScript • Go</li>
+            </ul>
+        </section>
 
-    <section class="links">
-    <h2>Contact</h2>
-    <div class="icons">
-        <a href="https://t.me/ishowlose" class="icon" target="_blank" rel="noopener noreferrer">
-            <img src="./Telegram_Messenger.png" alt="Telegram">
-        </a>
+        <section class="links | section">
+            <h2>Contact</h2>
+            <div class="icons">
+                <a class="icon telegram" href="https://t.me/ishowlose" target="_blank" rel="noopener">
+                    <img src="./Telegram_Messenger.png" alt="Telegram">
+                </a>
+                <a class="icon github" href="https://github.com/rasullbe" target="_blank" rel="noopener">
+                    <img src="./icone-github-violet.png" alt="GitHub">
+                </a>
+            </div>
+        </section>
+    </main>
 
-        <a href="https://github.com/rasullbe" class="icon" target="_blank" rel="noopener noreferrer">
-            <img src="./icone-github-violet.png" alt="GitHub">
-        </a>
-    </div>
-</section>
-
-
-    <footer>
-        <p>© 2025 Rasullbe</p>
-    </footer>
+    <footer>© 2025 Rasullbe</footer>
 </body>
 </html>
